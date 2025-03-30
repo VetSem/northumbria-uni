@@ -12,7 +12,7 @@ BLOCK_WIDTH, BLOCK_HEIGHT = 100, 50
 BLOCK_COLS, BLOCK_ROWS = 8, 4
 BLOCK_PADDING_X, BLOCK_PADDING_Y = 120, 70
 BLOCK_START_X, BLOCK_START_Y = 130, 10
-BG_IMAGE = 'bg.jpeg'
+BG_IMAGE = './Arkanoid/bg.jpeg'
 
 class BrickBreaker:
     def __init__(self):
