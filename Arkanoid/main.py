@@ -50,7 +50,7 @@ class BrickBreaker:
 
         return dx, dy
 
-    def run(self):
+    def start(self):
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -105,4 +105,4 @@ class BrickBreaker:
 
 if __name__ == "__main__":
     game = BrickBreaker()
-    game.run()
+    game.start()
